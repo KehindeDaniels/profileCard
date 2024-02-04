@@ -1,7 +1,13 @@
+import Body from './components/Body.jsx';
+import Footer from './components/Footer.jsx';
+import Header from './components/Header.jsx';
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <Header/>
+      <Body/>
+      <Footer/>
+    </>
   )
-}
+}     
